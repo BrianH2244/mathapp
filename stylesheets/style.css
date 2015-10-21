@@ -1,6 +1,9 @@
-/* Header Background
-------------------------------------*/
+        body {
+    font-size:20px;
+    background: lightgray;
+        }
 
+/* Header Background with Shading */
 .background-header-image {
   z-index: 1;
   padding: 100px 0;
@@ -24,6 +27,8 @@
   background: rgba(0,0,0,0.5);
 }
 
+/* Header Text */
+
 header .intro-content {
   color: white;
   top:30%;
@@ -35,58 +40,17 @@ header .intro-content {
     font-size: 80px;
     line-height: 70px;
   }
-  header .brand-name-subtext {
-    font-size: 30px;
-    line-height: 30px;
-  }
 
-.math-questions {
+/* Math Questions Section */
+
+.math-questions-section {
     padding-top: 20px;
     padding-left:50px;
     margin:0 auto;
 }
 
-
-
 #question, #total, #answer {
     min-height:20px;
     margin:0 auto;
     padding:20px;
-}
-        body {
-    font-size:20px;
-    background: lightgray;
-        }
-
-.math-form {
-    margin:0 auto;
-    text-align: center;
-}
-
-#total {
-    top: 100px;
-}
-/* Header Background
-------------------------------------*/
-.background-body-image {
-  z-index: 1;
-  padding: 100px 0;
-  position: relative;
-  height: 100%;
-  text-align: center;
-  background: url(../images/bg/steampunk-header-background.jpg) no-repeat;
-  background-size:cover;
-  background-position: center;
-}
-
-.background-body-image:after {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: -1;
-  content: " ";
-  height: 100%;
-  text-align: center;
-  position: absolute;
-  background: rgba(0,0,0,0.5);
 }
