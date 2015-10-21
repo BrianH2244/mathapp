@@ -20,10 +20,10 @@ $('#question').submit(function() {
     var ans = $('input[type=number]').val();
     window.question = " <b>"+count+".</b> " + a + " " + op + " " + b + " = " + ansCorrect + "<br /> Your Guess: " + ans;
     if (ans == ansCorrect) {
-        $('#answer').append(question + "<br><i>You were right!!</i><br>");
+        $('#answer').append(question + "<br><i>Congratulations! You were right!</i><br>");
         window.countRight++;
     } else {
-        $('#answer').append(question + "<br><i>You were wrong.</i><br>");
+        $('#answer').append(question + "<br><i>Sorry, better luck next time</i><br>");
     }
     $('#total').html("Correct: " + countRight + " / " + count);
     ask();
