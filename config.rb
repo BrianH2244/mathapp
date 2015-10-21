@@ -78,4 +78,4 @@ activate :deploy do |deploy|
     deploy.build_before = true
 end
 
-set :url_root, 'http://brianhildebrandt.com'
+set :url_root, 'http://BrianH2244.github.io/mathapp'
