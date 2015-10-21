@@ -1,0 +1,40 @@
+    #question, #total, #answer {
+    min-height:20px;
+    width:60%;
+    border:1px solid black;
+    margin:0 auto;
+    padding:20px;
+}
+        body {
+
+        }
+
+.math-form {
+    margin:0 auto;
+    text-align: center;
+}
+
+/* Header Background
+------------------------------------*/
+.background-body-image {
+  z-index: 1;
+  padding: 100px 0;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  background: url(../images/bg/steampunk-header-background.jpg) no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.background-body-image:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  content: " ";
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+}
