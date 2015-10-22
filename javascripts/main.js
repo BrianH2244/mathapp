@@ -3,7 +3,7 @@ function askQuestion() {
     window.secondNumber = Math.floor(Math.random() * 10) + 1;
     window.operator = ["*", "+", "-"][Math.floor(Math.random() * 3)];
 
-    window.question = "<b>How much is " + firstNumber + " " + operator + " " + secondNumber + "?</b><br><input type='number' name='input'><br><input id='check' type='submit' value='Check Answer'>"
+    window.question = "How much is " + firstNumber + " " + operator + " " + secondNumber + "?<br><input type='number' name='input'><br><input id='check' type='submit' value='Check Answer'>"
     window.answerCorrect = eval(firstNumber + operator + secondNumber);
 
     $('#question').html(question);
