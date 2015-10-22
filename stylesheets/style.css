@@ -19,11 +19,11 @@ header .intro-content {
   top:30%;
   text-align: center;
   position: relative;
+  font-size: 80px;
+  line-height: 70px;
 }
 
   header .brand-name {
-    font-size: 80px;
-    line-height: 70px;
   }
 
 /* Header Background with Shading */
@@ -58,8 +58,8 @@ header .intro-content {
     margin:0 auto;
 }
 
-#question, #total, #answer {
+#question, #answer {
     min-height:20px;
     margin:0 auto;
-    padding:20px;
+    padding-top:20px;
 }
