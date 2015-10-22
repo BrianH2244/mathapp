@@ -38,14 +38,14 @@ header h1 {
     background: rgba(0,0,0,0.5);
 }
 
-/* Math Questions Section */
+/* Math Section */
 
 .math-questions-section {
     padding-top: 20px;
     padding-left:50px;
 }
 
-.total-placement {
+#total {
     color:green;
     padding-top:30px;
 }
