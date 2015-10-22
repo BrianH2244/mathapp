@@ -1,9 +1,11 @@
 function askQuestion() {
     window.firstNumber = Math.floor(Math.random() * 10) + 1;
     window.secondNumber = Math.floor(Math.random() * 10) + 1;
-    window.operator = ["*", "+", "-", "/"][Math.floor(Math.random() * 4)];
+    window.operator = ["/"][Math.floor(Math.random() * 1)];
 
     window.question = "<strong>How much is " + firstNumber + " " + operator + " " + secondNumber + "?</strong><br /><input type='number' step='.1' name='input'><br /><input id='check' type='submit' value='Check Answer'>"
+
+    // Rounds to one decimal place and remains a number rather than a string
     window.answerCorrect = +eval(firstNumber + operator + secondNumber).toFixed(1);
 
     $('#question').html(question);
