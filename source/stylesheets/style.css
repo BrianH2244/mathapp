@@ -1,7 +1,7 @@
 body {
     font-size:20px;
     background: lightgray;
-    padding-bottom:40px;
+    padding-bottom:30px;
 }
 
 /* Header Text */
@@ -45,11 +45,29 @@ header h1 {
     padding-left:40px;
 }
 
-#question, #feedback {
+#question {
+    padding-top:10px;
+}
+
+#feedback {
     padding-top:20px;
 }
 
 #total {
     color:green;
-    padding-top:30px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+#reset {
+}
+
+.btn.btn-primary.btn-md {
+    font-size:18px;
+    color:white;
+    background:forestgreen;
+    border:none;
+    width:145px;
+    height:35px;
+    margin-top:10px;
 }
