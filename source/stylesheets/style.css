@@ -47,11 +47,4 @@ header h1 {
 
 #total {
     color:green;
-    padding-top:30px;
-}
-
-#question, #answer {
-    min-height:20px;
-    padding-top:20px;
-
 }
