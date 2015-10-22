@@ -4,6 +4,14 @@ body {
     padding-bottom:30px;
 }
 
+i {
+    color:red;
+}
+
+b {
+    color:green;
+}
+
 /* Header Text */
 
 header h1 {
@@ -17,11 +25,11 @@ header h1 {
 /* Header Background with Shading */
 .background-header-image {
     z-index: 1;
-    padding: 100px 0;
+    padding: 50px 0;
     position: relative;
     height: 100%;
     text-align: center;
-    background: url(../images/header-bg.jpg) no-repeat;
+    background: url(../images/header-bg3.jpg) no-repeat;
     background-size:cover;
     background-position: center;
 }
@@ -54,18 +62,16 @@ header h1 {
 }
 
 #total {
-    color:green;
+    color:midnightblue;
     padding-top:20px;
     padding-bottom:10px;
-}
-
-#reset {
+    font-weight: 600;
 }
 
 .btn.btn-primary.btn-md {
     font-size:18px;
-    color:white;
-    background:forestgreen;
+    color:#fff;
+    background:cadetblue;
     border:none;
     width:145px;
     height:35px;
