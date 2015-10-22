@@ -45,6 +45,11 @@ header h1 {
     padding-left:50px;
 }
 
+#question, #answer {
+    padding-top:20px;
+}
+
 #total {
     color:green;
+    padding-top:30px;
 }
