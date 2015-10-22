@@ -18,7 +18,7 @@ $('#question').submit(function () {
         $('#feedback').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
         window.countRight++;
     } else {
-        $('#feedback').html(question + "<br><i><b>Sorry, better luck next time.</b></i><br>");
+        $('#feedback').html(question + "<br><b><i>Sorry, better luck next time.</i></b><br>");
     }
     $('#total').html("Score: " + countRight + " / " + countTotal);
     askQuestion();
