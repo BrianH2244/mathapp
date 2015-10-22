@@ -1,4 +1,4 @@
-function ask() {
+function askQuestion() {
     window.firstNumber = Math.floor(Math.random() * 10) + 1;
     window.secondNumber = Math.floor(Math.random() * 10) + 1;
     window.operator = ["*", "+", "-"][Math.floor(Math.random() * 3)];
@@ -7,7 +7,7 @@ function ask() {
     window.answerCorrect = eval(firstNumber + operator + secondNumber);
 
     $('#question').html(question);
-    window.count++;
+    window.countTotal++;
 }
 
 $('#question').submit(function () {
@@ -20,11 +20,11 @@ $('#question').submit(function () {
     } else {
         $('#feedback').html(question + "<br><i><b>Sorry, better luck next time.</b></i><br>");
     }
-    $('#total').html("Score: " + countRight + " / " + count);
-    ask();
+    $('#total').html("Score: " + countRight + " / " + countTotal);
+    askQuestion();
     return false;
 });
 
 window.countRight = 0;
-window.count = 0;
-ask();
+window.countTotal = 0;
+askQuestion();
