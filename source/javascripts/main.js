@@ -1,24 +1,24 @@
 function ask() {
-    window.firstNum = Math.floor(Math.random() * 10) + 1;
-    window.secondNum = Math.floor(Math.random() * 10) + 1;
+    window.firstNumber = Math.floor(Math.random() * 10) + 1;
+    window.secondNumber = Math.floor(Math.random() * 10) + 1;
     window.operator = ["*", "+", "-"][Math.floor(Math.random() * 3)];
 
-    window.question = "How much is " + firstNum + " " + operator + " " + secondNum + "?<br><input type='number' name='input'><br><input id='check' type='submit' value='Check Answer'>"
-    window.ansCorrect = eval(firstNum + operator + secondNum);
+    window.question = "How much is " + firstNumber + " " + operator + " " + secondNumber + "?<br><input type='number' name='input'><br><input id='check' type='submit' value='Check Answer'>"
+    window.answerCorrect = eval(firstNumber + operator + secondNumber);
 
     $('#question').html(question);
     window.count++;
 }
 
 $('#question').submit(function () {
-    var ans = $('input[type=number]').val();
-    window.question = " Correct Answer: " + firstNum + " " + operator + " " + secondNum + " = " + ansCorrect + "<br /> Your Guess: " + ans;
+    var guess = $('input[type=number]').val();
+    window.question = " Correct Answer: " + firstNumber + " " + operator + " " + secondNumber + " = " + answerCorrect + "<br /> Your Guess: " + guess;
 
-    if (ans == ansCorrect) {
-        $('#answer').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
+    if (guess == answerCorrect) {
+        $('#feedback').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
         window.countRight++;
     } else {
-        $('#answer').html(question + "<br><i><b>Sorry, better luck next time.</b></i><br>");
+        $('#feedback').html(question + "<br><i><b>Sorry, better luck next time.</b></i><br>");
     }
     $('#total').html("Score: " + countRight + " / " + count);
     ask();
