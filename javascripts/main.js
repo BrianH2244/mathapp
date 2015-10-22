@@ -15,7 +15,7 @@ $('#question').submit(function () {
     window.question = "Correct Answer: " + firstNumber + " " + operator + " " + secondNumber + " = " + answerCorrect + "<br /> Your Guess: " + guess;
 
     if (guess == answerCorrect) {
-        $('#feedback').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
+        $('#feedback').html(question + "<br><i><b>Congratulations, you're right!</b></i><br>");
         window.countRight++;
     } else {
         $('#feedback').html(question + "<br><b><i>Sorry, better luck next time.</i></b><br>");
