@@ -3,6 +3,29 @@
     background: lightgray;
         }
 
+.clear {
+    clear:both;
+}
+
+.total-placement {
+    color:green;
+    padding-top:30px;
+}
+
+/* Header Text */
+
+header .intro-content {
+  color: white;
+  top:30%;
+  text-align: center;
+  position: relative;
+}
+
+  header .brand-name {
+    font-size: 80px;
+    line-height: 70px;
+  }
+
 /* Header Background with Shading */
 .background-header-image {
   z-index: 1;
@@ -26,20 +49,6 @@
   position: absolute;
   background: rgba(0,0,0,0.5);
 }
-
-/* Header Text */
-
-header .intro-content {
-  color: white;
-  top:30%;
-  text-align: center;
-  position: relative;
-}
-
-  header .brand-name {
-    font-size: 80px;
-    line-height: 70px;
-  }
 
 /* Math Questions Section */
 
