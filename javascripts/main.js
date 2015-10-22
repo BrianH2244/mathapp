@@ -15,10 +15,10 @@ $('#question').submit(function () {
     window.question = " Correct Answer: " + firstNum + " " + operator + " " + secondNum + " = " + ansCorrect + "<br /> Your Guess: " + ans;
 
     if (ans == ansCorrect) {
-        $('#answer').html(question + "<br><i>Congratulations, you were right!</i><br>");
+        $('#answer').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
         window.countRight++;
     } else {
-        $('#answer').html(question + "<br><i>Sorry, better luck next time.</i><br>");
+        $('#answer').html(question + "<br><i><b>Sorry, better luck next time.</b></i><br>");
     }
     $('#total').html("Score: " + countRight + " / " + count);
     ask();
