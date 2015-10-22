@@ -25,6 +25,10 @@ $('#question').submit(function () {
     return false;
 });
 
+$('#reset').click(function() {
+    location.reload();
+});
+
 window.countRight = 0;
 window.countTotal = 0;
 askQuestion();

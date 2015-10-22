@@ -51,5 +51,18 @@ header h1 {
 
 #total {
     color:green;
-    padding-top:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#reset {
+}
+
+.btn.btn-primary.btn-md {
+    color:white;
+    background:forestgreen;
+    border:none;
+    width:150px;
+    height:35px;
+    margin-top:0;
 }
