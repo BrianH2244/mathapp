@@ -51,7 +51,7 @@ header h1 {
 
 #total {
     color:green;
-    padding-top:10px;
+    padding-top:20px;
     padding-bottom:10px;
 }
 
@@ -59,10 +59,11 @@ header h1 {
 }
 
 .btn.btn-primary.btn-md {
+    font-size:18px;
     color:white;
     background:forestgreen;
     border:none;
-    width:150px;
+    width:145px;
     height:35px;
-    margin-top:0;
+    margin-top:10px;
 }
