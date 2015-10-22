@@ -12,7 +12,7 @@ function askQuestion() {
 
 $('#question').submit(function () {
     var guess = $('input[type=number]').val();
-    window.question = " Correct Answer: " + firstNumber + " " + operator + " " + secondNumber + " = " + answerCorrect + "<br /> Your Guess: " + guess;
+    window.question = "Correct Answer: " + firstNumber + " " + operator + " " + secondNumber + " = " + answerCorrect + "<br /> Your Guess: " + guess;
 
     if (guess == answerCorrect) {
         $('#feedback').html(question + "<br><i><b>Congratulations, you were right!</b></i><br>");
