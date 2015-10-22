@@ -25,7 +25,7 @@ $('#question').submit(function () {
     } else {
         $('#answer').html(question + "<br><i>Sorry, better luck next time.</i><br>");
     }
-    $('#total').html("Correct: " + countRight + " / " + count);
+    $('#total').html("Score: " + countRight + " / " + count);
     ask();
     return false;
 });
