@@ -46,9 +46,7 @@ header h1 {
 }
 
 #question, #answer {
-    min-height:20px;
     padding-top:20px;
-
 }
 
 #total {
