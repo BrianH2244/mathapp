@@ -17,12 +17,13 @@ function ask() {
 
 $('#question').submit(function () {
     var ans = $('input[type=number]').val();
-    window.question = " <b>" + count + ".</b> " + firstNum + " " + operator + " " + secondNum + " = " + ansCorrect + "<br /> Your Guess: " + ans;
+    window.question = " Correct Answer: " + firstNum + " " + operator + " " + secondNum + " = " + ansCorrect + "<br /> Your Guess: " + ans;
+
     if (ans == ansCorrect) {
-        $('#answer').append(question + "<br><i>Congratulations! You were right!</i><br>");
+        $('#answer').html(question + "<br><i>Congratulations, you were right!</i><br>");
         window.countRight++;
     } else {
-        $('#answer').append(question + "<br><i>Sorry, better luck next time.</i><br>");
+        $('#answer').html(question + "<br><i>Sorry, better luck next time.</i><br>");
     }
     $('#total').html("Correct: " + countRight + " / " + count);
     ask();
