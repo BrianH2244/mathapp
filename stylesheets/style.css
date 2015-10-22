@@ -21,7 +21,7 @@ header h1 {
     position: relative;
     height: 100%;
     text-align: center;
-    background: url(../images/bg/header-bg.jpg) no-repeat;
+    background: url(../images/header-bg.jpg) no-repeat;
     background-size:cover;
     background-position: center;
 }
@@ -45,7 +45,7 @@ header h1 {
     padding-left:40px;
 }
 
-#question, #answer {
+#question, #feedback {
     padding-top:20px;
 }
 
