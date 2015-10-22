@@ -1,6 +1,7 @@
 body {
     font-size:20px;
     background: lightgray;
+    padding-bottom:20px;
 }
 
 /* Header Text */
@@ -42,7 +43,6 @@ header h1 {
 .math-questions-section {
     padding-top: 20px;
     padding-left:50px;
-    padding-bottom:20px;
 }
 
 .total-placement {
