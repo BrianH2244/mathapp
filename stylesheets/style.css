@@ -5,11 +5,11 @@ body {
 }
 
 i {
-    color:red;
+    color:darkred;
 }
 
 b {
-    color:green;
+    color:darkgreen;
 }
 
 /* Header Text */
@@ -62,7 +62,7 @@ header h1 {
 }
 
 #total {
-    color:midnightblue;
+    color:darkblue;
     padding-top:20px;
     padding-bottom:10px;
     font-weight: 600;
