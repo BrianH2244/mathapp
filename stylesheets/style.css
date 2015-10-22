@@ -62,9 +62,10 @@ header h1 {
 }
 
 #total {
-    color:blue;
+    color:midnightblue;
     padding-top:20px;
     padding-bottom:10px;
+    font-weight: 600;
 }
 
 .btn.btn-primary.btn-md {
