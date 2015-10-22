@@ -3,10 +3,6 @@
     background: lightgray;
         }
 
-.clear {
-    clear:both;
-}
-
 .total-placement {
     color:green;
     padding-top:30px;
@@ -14,7 +10,7 @@
 
 /* Header Text */
 
-header .intro-content {
+header h1 {
   color: white;
   top:30%;
   text-align: center;
@@ -22,9 +18,6 @@ header .intro-content {
   font-size: 80px;
   line-height: 70px;
 }
-
-  header .brand-name {
-  }
 
 /* Header Background with Shading */
 .background-header-image {
