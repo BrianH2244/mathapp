@@ -1,15 +1,19 @@
 body {
-    font-size:20px;
+    font-size: 20px;
     background: lightgray;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
+
+/* Wrong Answer Text Color */
 
 i {
-    color:darkred;
+    color: darkred;
 }
 
+/* Correct Answer Text Color */
+
 b {
-    color:darkgreen;
+    color: darkgreen;
 }
 
 /* Header Text */
@@ -23,6 +27,7 @@ header h1 {
 }
 
 /* Header Background with Shading */
+
 .background-header-image {
     z-index: 1;
     padding: 50px 0;
@@ -30,7 +35,7 @@ header h1 {
     height: 100%;
     text-align: center;
     background: url(../images/header-bg3.jpg) no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
 }
 
@@ -50,31 +55,31 @@ header h1 {
 
 .math-questions-section {
     padding-top: 20px;
-    padding-left:40px;
+    padding-left: 40px;
 }
 
 #question {
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 #feedback {
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 #total {
     color:darkblue;
-    padding-top:20px;
-    padding-bottom:10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-weight: bold;
 }
 
-.btn.btn-primary.btn-md {
-    font-size:20px;
-    color:#fff;
-    background:cadetblue;
-    border:none;
-    width:145px;
-    height:35px;
-    margin-top:10px;
-    padding:0;
+.btn.btn-md {
+    font-size: 20px;
+    color: #fff;
+    background: cadetblue;
+    border :none;
+    width: 145px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0;
 }
